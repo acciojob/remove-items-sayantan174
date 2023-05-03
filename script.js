@@ -9,6 +9,6 @@ function removeColor() {
   console.log("Removed color: " + selectedColor);
 }
 var button = document.getElementById("Select and Remove");
-button.addEventListener("click",removeColor);
+button.addEventListener("click",removeColor());
 
 
